@@ -86,7 +86,7 @@ Any task -> Watcher-A -> Watcher-B -> Council -> Gate -> AEGIS
 ```
 
 ## Vs Others
-| Feature | Operator / Perplexity Computer Use / Perplexity / Grok / Kimi | UFO Cathedral v6.4 |
+| Feature | Operator / Perplexity Computer / Claude / Grok / Kimi | UFO Cathedral v6.4 |
 |---|---|---|
 | Cost | $20-$200/mo + credits | 100% Free, local |
 | RAM | Cloud | 8GB RAM offline |

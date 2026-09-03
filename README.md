@@ -1,12 +1,12 @@
 ## F*ckUp-Free AI: Fail-Safe Free AI — UFO v6.4 Cathedral Edition
 
-### 100% Free ✅ Offline 8GB RAM alternative to $200/mo Operator / Perplexity Computer Use
+### 100% Free ✅ Offline 8GB RAM alternative to $200/mo Operator / Perplexity Computer 
 > ( Other ARTIFICIAL INTELLIGENCE options are EXPENSIVE OR CRASH after a big task because their brain window is ∼4k tokens. They forget step 1 by step 15, loop forever, and you can't prove what they did. 
 > I fixed it by merging scrappy UFO automation + formal Cathedral safety:
 >
 > RELIABLE Multifunctional Free Artificial Intelligence )
 
-It's not the FIRST Offline Model — guess what? I use 5 models from HuggingFace: `phi3:mini`, `llama3.2:3b`, `llama3.1:8b`, `qwen2.5:7b`, `llava:7b` ⚡️🧠
+It's not the FIRST Offline Model — I actually use 5 models from HuggingFace: `phi3:mini`, `llama3.2:3b`, `llama3.1:8b`, `qwen2.5:7b`, `llava:7b` ⚡️🧠
 
 I'm simply sharing my fail-safe computer-use agent that wraps around them. The Gate stops loops, the Ledger hash-chains every step so you can replay and prove what happened, and Shadow Mode picks the best of N proposals. That fixes the 4k crash + loop problem and lets it run offline on 8GB RAM.
 

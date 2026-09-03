@@ -1,157 +1,161 @@
-## F*ckUp-Free AI: Fail-Safe Free AI — UFO v6.5 Cathedral Edition
+# FAIL-SAFE FREE AI - CATHEDRAL COMPUTER v6.6
+### 100% Free, Offline, 8GB RAM Computer-Use Agent + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Claude Computer Use
+**By Jose Solorzano Luna — 8 stars ⭐ | v6.6 POLITE_FIX f50f6054 | 9→10 commits**
 
-### 100% Free ✅ Offline 8GB RAM alternative to $200/mo Operator / Perplexity Computer 
-> ( Other ARTIFICIAL INTELLIGENCE options are EXPENSIVE OR CRASH after a big task because their brain window is ∼4k tokens. They forget step 1 by step 15, loop forever, and you can't prove what happened.
-> I fixed it by merging scrappy UFO automation + formal Cathedral safety:
->
-> RELIABLE Multifunctional Free Artificial Intelligence )
+**Share this repo:** `https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI`
+**Fork (Microsoft UFO with Cathedral):** `https://github.com/JoseAngelSolorzanoLuna/UFO`
 
-It's not the FIRST Offline Model — I actually use 5 models from HuggingFace: `phi3:mini`, `llama3.2:3b`, `llama3.1:8b`, `qwen2.5:7b`, `llava:7b` ⚡️🧠
+![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
 
-I'm simply sharing my fail-safe computer-use agent that wraps around them. The Gate stops loops, the Ledger hash-chains every step so you can replay and prove what happened, and Shadow Mode picks best outcome from parallel executions.
-
-Bonus: you can paste a YouTube link and it learns the tutorial via `llava:7b` Eyes. I run 2 shadows in parallel — 1s DETAILED vs 3s FAST — Gate compares coherence/risk/latency and promotes the best.
+## What is this?
+FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo Operator because we use **OSHA L1 Elimination (Merkle Permit)** not L5 PPE (prompt filter).
 
 
-![Cathedral Computer](visuals/cathedral_computer_blueprint.webp)
+---
 
-## v6.5 OSHA Hierarchy Update (Sept 2026) - LIVE
+## 🔄 What's Updated — Old vs New Visuals
 
-> **Live Proof:** `OSHA Permit Root: ba1f7bf481e2... (12 actions) | Elimination Control Active`
-> Verify: run `python ufo64.py` → `status` → shows Permit Root hash
+> **Context:** Original Microsoft UFO had basic logos + YouTube poster. Cathedral Edition v6.5 adds 4 formal safety architecture diagrams (commit `e1c3c21`) + v6.6 adds Safety Card model (commit `f50f6054`). All FREE vs $200/mo Operator.
 
-UFO now implements **OSHA 29 CFR 1926 Hierarchy of Controls structurally**, not as prompt filters. Ordered by efficacy: Eliminate → Substitute → Engineer → Administrative → PPE.
+### 📸 Preview Gallery — Click to view full size
 
-### The 5 OSHA Control Levels
+#### OLD (Microsoft Original) — Kept Below
 
-| OSHA Level | UFO Control | Implementation | What it does |
-| :--- | :--- | :--- | :--- |
-| **1. ELIMINATION** | Merkle Permit Set | `PERMITTED_ROOT = SHA256(12 actions)` | Structurally excludes 10,000+ actions BEFORE proposal. Says "you were never allowed to propose delete_system32 in first place" |
-| **2. SUBSTITUTION** | BoundedSensorGate | `click 0-3840 bounds, type max 1000 chars` | Replaces raw OS calls with bounded verified values. Stops stale screenshots BEFORE they reach Watcher, like machine guard that stops hand before blade |
-| **3. ENGINEERING** | Hash-Chain Ledger | I6/I9 immutable chain `H(n)=SHA256(H(n-1)\|state\|action)` | Isolates failure, tamper-evident, cryptographically sequenced |
-| **4. ADMINISTRATIVE** | Promotion Gate | Watcher-A + B + Council, 2-person rule | Watcher-A detects loops AFTER they happen, B + Council must approve before mutation |
-| **5. PPE** | Ledger Replay | `verify_chain()` + replay buffer | Last-resort auditability, forensic trail |
+| Old Visual | Where Used | Status |
+|------------|------------|--------|
+| `assets/logo3.png` — UFO³ logo | Header | ✅ Kept — still in header |
+| `assets/ufo_blue.png` — UFO² logo | UFO² section | ✅ Kept |
+| `assets/poster_with_play.png` — YouTube demo poster | "See in Action" | ✅ Kept — links to demo video |
+| `assets/ufo_agent.png` — Agent diagram | Docs | ✅ Kept |
 
-### UFO v6.5 OSHA Hierarchy Architecture
-![UFO v6.5 Cathedral Edition - End-to-End System Architecture](docs/images/ufo-v6.5-cathedral-architecture.png)
+**Old Preview (Microsoft):**
+- Logo + poster only — no safety hierarchy visualization.
 
-### Bounded Sensor Gate — Industrial Machine Guard
-![Bounded Sensor Gate - Validation Guard Active](docs/images/bounded-sensor-gate-machine-guard.png)
+#### NEW (Cathedral Edition v6.5 + v6.6) — Added by Jose Solorzano Luna
 
-### Three-Panel Safety Architecture Comparison
-![AI Safety Guard Architectures - Comparison of PPE vs Runtime Gate vs Pre-Proposal Structural Exclusion](docs/images/three-panel-ai-safety-comparison.png)
+**Why added?** OSHA requires visual proof of controls. Microsoft UFO had no hierarchy diagram. Cathedral adds:
 
-### OSHA Hierarchy of Controls - AI Safety Framework
-![OSHA Hierarchy of Controls - UFO v6.5 Cathedral Edition](docs/images/osha-hierarchy-controls-pyramid.png)
+| New Visual | What It Proves | Why It Matters |
+|------------|----------------|----------------|
+| **1. Cathedral Architecture**<br/>`ufo-v6.5-cathedral-architecture.png` | End-to-end: `User → BoundedSensorGate → Watcher-A/B → Council → Merkle Permit → Ledger → AEGIS` | Shows L1-L5 controls as code, not prompt filter |
+| **2. OSHA Pyramid**<br/>`osha-hierarchy-controls-pyramid.png` | L1 Elimination (Merkle) > L2 Substitution (Gate) > L3 Engineering (Ledger+Guard) > L4 Admin (Watcher+Council) > L5 PPE (AEGIS) | Proves FREE version uses Elimination (strongest), not PPE like $200/mo Operator |
+| **3. Three-Panel Comparison**<br/>`three-panel-ai-safety-comparison.png` | Panel 1: PPE only (fragile), Panel 2: Gate (better), Panel 3: Merkle Elimination (strongest — 12 hashed actions, non-permitted never proposed) | Visual why Cathedral is safer than Operator |
+| **4. BoundedSensorGate**<br/>`bounded-sensor-gate-machine-guard.png` | Machine guard stops stale screenshot BEFORE Watcher-A — like factory guard stopping hand before blade | Prevents loop bug where old screenshot feeds back |
 
-### vs $200/mo Operator / Claude / Perplexity / Grok
+**New Previews (Cathedral v6.5 — commit e1c3c21):**
 
-|  | Operator / Claude $200/mo | UFO v6.4 Cathedral | UFO v6.5 OSHA (NEW) |
-| :--- | :--- | :--- | :--- |
-| **Timing** | Post-Generation | During/After Proposal | **BEFORE Proposal** |
-| **Method** | PPE Prompt Filter | Runtime Gate Check | Cryptographic Structural Exclusion |
-| **Safety** | Reactive - action generated then blocked | Conditional - paused for review | **Guaranteed Prevention - action never proposed** |
-| **Guarantee** | None | Conditional / Latency risk | **Absolute / Cryptographic** |
-| **Analogy** | Gloves after touching blade | Emergency stop after touching | **Machine guard stops hand BEFORE blade** |
+##### 1. Full Cathedral Architecture
+![Cathedral Architecture](docs/images/ufo-v6.5-cathedral-architecture.png)
+*End-to-end flow with OSHA controls as code. Root: `e35f6ecad9da...` (12 actions).*
 
-> **Key Difference:** Operator uses prompt filter (PPE), UFO uses structural exclusion (Elimination). "Structural exclusion, not prompt filter."
+##### 2. OSHA Hierarchy Pyramid
+![OSHA Pyramid](docs/images/osha-hierarchy-controls-pyramid.png)
+*L1 Elimination is strongest — Cathedral uses Merkle Permit Set (12 hashed actions). Operator uses L5 PPE (prompt filter) = weakest.*
 
-## The Hook — What You Want to Hear First
-- **100% Free (USUALLY EXPENSIVE) 💔** — No $200/mo subscription. Unlimited use, no credits.
-- **AI can see 👁️ your screen + videos** — Learns YouTube tutorials via llava:7b Eyes.
-- **AI can click or type for you** — Windows automation, Excel, browser, any app.
-- **Works Offline with 8GB RAM** — The worldwide-known way. Screen never leaves PC. 100% local via Ollama.
-- **Why F*ckUp-Free?** = Free OF fuckups. Fail-closed, hash-chained, replayable. Play on words + technically true.
-- **OSHA-Compliant Safety Framework** — Structural elimination controls, not prompt filters. Cryptographically guaranteed prevention.
+##### 3. Three-Panel Safety Comparison
+![Three Panel](docs/images/three-panel-ai-safety-comparison.png)
+*Why FREE Cathedral beats $200/mo Operator: Elimination > Gate > PPE.*
 
-## The Problem With Other AI Options
-- No formal safety. One model decides and executes. Loops forever.
-- 4k token window crash. Giant tasks >500 chars overflow. No auto-chunking.
-- No immutable history. Logs mutable, deletable.
-- No replay. Can't verify tutorial learning.
-- Expensive + cloud. $20-$200/mo, credits, API limits, screen sent to cloud.
-- No overview of issues. No view of what was processed / skipped / misheard.
-- Safety is post-generation PPE only. Action already proposed before filtering. Risk of bypass.
+##### 4. BoundedSensorGate — Machine Guard
+![Gate](docs/images/bounded-sensor-gate-machine-guard.png)
+*Stops stale screenshots before Watcher-A. Fixes loop where old capture re-triggers.*
 
-## Solution — Best of Both Worlds (UFO + Sentinel Substrate Merge + OSHA Controls)
-Scrappy consumer automation (works on 8GB) + formal military-grade Cathedral safety + OSHA Hierarchy of Controls.
+### 🆕 v6.6 Update (commit f50f6054) — Safety Card Model
 
-![5 Models as Opcodes](visuals/geometric_blueprint_poster.webp)
+**Problem Fixed:**
+- v6.5: `pronunciation_errors_report.md` → `["POLITE_LIE", "TAU_NEAR_FLOOR"]` learned as immediate TRUTH from YouTube = poison risk
+- v6.6: `lessons.jsonl` with 3-replay safety card
 
-### Layer L0-L1: World Input / Model Ports
-5 local Ollama models: `phi3:mini` (FAST), `llama3.2:3b` (MID), `llama3.1:8b` (SMART anti-loop), `qwen2.5:7b` (QWEN Excel/code), `llava:7b` (EYES). All proposals only, no direct execution. Only AE gate layer can execute.
-
-### Layer L2-L5: Epistemic Stratum — The Best of Both Worlds
-- **VECTOR (L2):** Read-only sensing. Cannot mutate.
-- **Watcher-A (L3):** Internal consistency — detects loops, giant 4k overflow, destructive commands. Cannot execute. Cannot bypass Gate.
-- **Watcher-B (L4):** Adversarial auditor — audits Watcher-A itself for bias drift, audit corruption, silent failure, false confidence.
-- **Council Resolver (L5):** Merges A+B into exactly ONE SignalNode per cycle (Invariant I4). Agreement = reinforced confidence, Disagreement = escalated severity.
-- **Signal Algebra:** Severity INFO/WARNING/ERROR/CRITICAL + confidence 0-1 + decay + escalation. Signals annotate, signals never decide.
-
-![High-Throughput Pipeline](visuals/high_throughput_cathedral_computer_blueprint.webp)
-
-### Layer L10-L12: Execution Stratum
-- **CGIR (L10):** Causal Graph IR. Every task becomes StateNode + EventEdge + SignalNode. Machine-checkable, not free text.
-- **Gate (L11):** Pure deterministic function, ONLY decision authority. Priority: 1 Ledger violation -> HARD_FAIL, 2 Critical Signal -> HARD_FAIL, 3 Temporal -> THROTTLE, 4 Contract -> HARD_FAIL.
-- **AEGIS/CESK (L12):** Only mutator. `LOAD -> PROPOSE -> CHECK -> COMMIT -> PROVE`. No other layer can mutate.
-
-### Layer L13-L14: Truth & Replay
-- **Ledger/Chronicle (L13):** Hash-chained: `hash(n) = SHA256(prev_hash + data)`. Immutable (I6), tamper-evident. Solves losing content when closing tab.
-- **Replay/Gnosis (L14):** Type `replay` -> replays ledger, verifies chain (I9 Replayability). RCA + divergence detection.
-- **Shadow/Ghost Mode:** For tutorials, run 2 shadows in parallel: 1s DETAILED vs 3s FAST. Neither mutates live state. Compare coherence, risk, latency, cost. Gate promotes best via `Shadow -> Replay`.
-
-### Provenance & Learning (v6.6 Roadmap)
-
-Current `pronunciation_errors_report.md` becomes `lessons: ["POLITE_LIE", "TAU_NEAR_FLOOR"]`
-
-Next (v6.6): Tutorial named X learns as UNVERIFIED, needs 3 consecutive safe replays to promote to TRUTH. Workforce safety card model. `status` will say: "3 actions learned from unverified YouTube - promoted to TRUTH after 3 consecutive replays." - OSHA incident investigation.
-
-**Permit Root:** `ba1f7bf481e2...` (12 actions) - verify with `status`
-
-## Step-by-Step Setup — So You Can Set It Up Yourself (8GB RAM)
-1. Install Ollama, pull models: `ollama pull phi3:mini llama3.2:3b llama3.1:8b qwen2.5:7b llava:7b`
-2. Clone UFO: `git clone https://github.com/microsoft/UFO`
-3. Create venv: `python -m venv ufo_env310` + `ufo_env310\Scripts\pip install requests pillow`
-4. Place `ufo64.py` in UFO folder
-5. Run: `.\ufo_env310\Scripts\python.exe .\ufo64.py`
-6. Type `help` -> shows all commands, `status`, `replay`, `ledger`
-7. Learn: `learn tutorial named my_first_test`
-
-## Why This Is By Far a Great Alternative — Endless Possibilities, All Free
-- Fixes 4k crash: auto-classifies GIANT, splits into fresh 4k windows, carries memory via files/phase1.txt
-- Fixes looping: Watcher-A detects same task in last 5, Gate HARD_FAIL stops loop
-- Overview + underlying issues: status shows tutorials/screenshots/tasks/MB + ledger validity, replay shows every execution + hash, pronunciation_errors_report.md shows misheard + Team Vote consensus
-- Affordable: Works on 8GB RAM worldwide-known way
-- Best of both worlds: automation + formal safety = capabilities not available elsewhere at any price
-- OSHA-Compliant: Structural elimination controls guarantee action prevention before proposal
-- Monetize: Free 
-
-## Commands v6.5 Cathedral
+**Visual Context:**
 ```
-help / ? -> this help
-status -> project + ledger verify + replay + permit root
-replay -> Replay Chronicle (Gnosis)
-ledger -> Show chain validity
-learn tutorial named X -> 1s DETAILED (Shadow mode picks best)
-fastlearn tutorial named X -> 3s FAST
-end project -> zips + verifies ledger
-Any task -> BoundedSensorGate -> Watcher-A -> Watcher-B -> Council -> Gate -> AEGIS
+[UNVERIFIED] my_first_test:POLITE_LIE src=youtube → needs 3 consecutive safe replays
+[REPLAY 1] safe_streak=1/3
+[REPLAY 2] safe_streak=2/3
+[REPLAY 3] safe_streak=3/3 → [TRUTH] promoted
 ```
 
-## Vs Others
-| Feature | Operator / Perplexity Computer / Claude / Grok / Kimi | UFO Cathedral v6.4 | UFO Cathedral v6.5 |
-|---|---|---|---|
-| Cost | $20-$200/mo + credits | 100% Free, local | 100% Free, local |
-| RAM | Cloud | 8GB RAM offline | 8GB RAM offline |
-| Safety Timing | Post-generation | Runtime gate | **Pre-proposal** |
-| Safety Method | Prompt filter (PPE) | Runtime check | **Cryptographic structural exclusion** |
-| Immutable Ledger | No | Yes, hash-chained SHA256 | Yes, hash-chained SHA256 |
-| Replay | No | Yes, I9 Replayability | Yes, I9 Replayability |
-| Shadow Mode | No | Yes, N parallel proposals | Yes, N parallel proposals |
-| Privacy | Screen leaves PC | Screen never leaves PC | Screen never leaves PC |
-| OSHA Compliance | No | Partial (L2-L5) | **Full (L1-L5)** |
+**Live Proof (from your test):**
+```
+[PROMOTION GATE] TAU_NEAR_FLOOR promoted UNVERIFIED -> TRUTH after 3 consecutive safe replays
+Lessons: 0 unverified → 2 TRUTH after 3 replays
+```
 
-## License
-MIT — Free for all, free forever but donations are welcome
+### 📊 Side-by-Side Summary
 
-Built by Jose Angel Solorzano Luna — 2026
+| Aspect | Old Microsoft UFO | New Cathedral v6.6 |
+|--------|-------------------|---------------------|
+| **Visuals** | 2 logos + 1 YouTube poster | +4 architecture diagrams + safety card log |
+| **Safety Model** | Prompt filter (L5 PPE) | OSHA L1-L5 as code (Elimination strongest) |
+| **Permit** | Not hashed | Merkle root `e35f6ecad9da...` 12 actions hashed |
+| **Learning** | Immediate TRUTH from YouTube | 3-replay verification → TRUTH |
+| **Cost** | Research demo | FREE vs $200/mo Operator / Claude Computer Use |
+| **Languages** | EN/ZH | EN/ZH/ES-MX (for family) |
+
+**How to view previews:**
+- On GitHub: scroll to this section → images render inline
+- Click image → opens full size in `docs/images/`
+- Raw files: `https://github.com/JoseAngelSolorzanoLuna/UFO/tree/main/docs/images`
+
+
+
+---
+
+## 🔄 Old vs New Visual Comparison — What You Asked For
+
+### OLD (Microsoft UFO Original — 2 logos + YouTube poster only)
+- `assets/logo3.png` — UFO³ logo
+- `assets/poster_with_play.png` — YouTube demo
+
+### NEW v6.4 + v6.6 — 4 Cathedral Blueprints (You just uploaded)
+
+#### 1. FAIL-SAFE FREE AI Poster
+![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
+**Context:** Value prop — 100% Free, Offline, 8GB RAM, ON-DEVICE VISION, ONE-CLICK RUN, IMMUTABLE LEDGER, SAFETY GATE, 5 MODELS, OFFLINE • NO INTERNET REQUIRED — Privacy First
+
+#### 2. Cathedral Computer Blueprint v6.4
+![Cathedral Computer](docs/images/cathedral-computer-blueprint-v64.png)
+**Context:** Shows LEDGER = IMMUTABLE TRUTH (Merkle Root, SHA3-512, Crypto Seal) + CORE PROCESSING BOARD (Watcher-A/B, AEGIS, Council, Gate) + 5 MODELS = OPCODES (phi3 mini FAST 3.8B, llama3.2 MID, llama3.1 SMART 8B, qwen2.5 QWEN 7B, llava EYES)
+
+#### 3. 5 Geometric Models as Opcode Families
+![5 Models](docs/images/5-geometric-models-opcode-families.png)
+**Context:** phi3 MINI = Edge Sphere (<5ms), LLAMA3.2 = Pyramid L0→L4 hierarchy, LLAMA3.1 = Graph Network 512 edges 64 nodes, QWEN2.5 = Torus for multilingual cyclic, LLAVA = Eye Sphere ViT-L/14 + 4-SLOT REGISTER FILE [1.618] PHI, [-0.707], [0.000], [0.500] + TENSOR-CORE WARP FABRIC MESH BUS
+
+#### 4. High-Throughput Pipeline
+![Pipeline](docs/images/high-throughput-cathedral-computer.png)
+**Context:** Instruction Pipeline A→T→V→Q→P (ASSIGN → TRACK → VALIDATE → QUEUE → PUBLISH) + 5 MODEL OPCODES AS STAMPED SEALS + 4-WIDE REGISTER FILE PERSISTENT VECTOR REGISTERS + TENSOR MMA WARP GRID AS THE BUS + AEGIS / ZERO DRIFT + 5.2 TOPS @ 2.1GHz
+
+### 📊 Side-by-Side
+
+| | OLD Microsoft UFO | NEW Cathedral v6.6 |
+|---|---|---|
+| Visuals | 3 logos/poster | +4 blueprints = 7 total + Safety Card log |
+| Safety | Prompt filter L5 PPE | OSHA L1-L5 as code — Merkle Elimination strongest |
+| Permit | Not hashed | Merkle root e35f6ecad9da... 12 actions |
+| Learning | Immediate TRUTH from YouTube | 3-replay Safety Card — 0 unverified → 2 TRUTH after 3 replays f50f6054 |
+| Cost | Research demo | FREE vs $200/mo Operator |
+
+---
+
+## Quick Start v6.6
+
+```powershell
+.\ufo_env310\Scripts\python.exe .\Ufo64-V66-POLITE-FIX.py
+> learn tutorial named my_first_test
+> status
+> replay
+> replay
+> replay
+# After 3 replays: [PROMOTION GATE] TAU_NEAR_FLOOR promoted UNVERIFIED -> TRUTH after 3 consecutive safe replays
+# Lessons: 0 unverified → 2 TRUTH
+```
+
+**Original Microsoft:** https://github.com/microsoft/UFO
+**Your fork with full docs:** https://github.com/JoseAngelSolorzanoLuna/UFO
+
+---
+
+## Files in this repo
+- `docs/images/` — 8 PNGs: 4 old v6.5 + 4 new v6.4 blueprints (1.56 MiB push 8b20156b)
+- `README.md` — this file v6.6 gallery
+- `Run-Ufo-Project-V6_4_CATHEDRAL.py` — main
+- `Ufo64-V66-POLITE-FIX.py` — v6.6 fix f50f6054

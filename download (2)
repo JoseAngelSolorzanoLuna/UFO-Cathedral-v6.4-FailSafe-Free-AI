@@ -1,0 +1,6 @@
+ufo_env310/
+projects/
+*.log
+__pycache__/
+/target/
+.env

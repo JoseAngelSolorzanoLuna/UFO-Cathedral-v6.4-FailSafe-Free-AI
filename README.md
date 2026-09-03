@@ -1,6 +1,6 @@
 ## F*ckUp-Free AI: Fail-Safe Free AI — UFO v6.4 Cathedral Edition
 
-### 100% Free ✅ Offline 8GB RAM alternative to $200/mo Operator / Claude Computer Use
+### 100% Free ✅ Offline 8GB RAM alternative to $200/mo Operator / Perplexity Computer Use
 > ( Other ARTIFICIAL INTELLIGENCE options are EXPENSIVE OR CRASH after a big task because their brain window is ∼4k tokens. They forget step 1 by step 15, loop forever, and you can't prove what they did. 
 > I fixed it by merging scrappy UFO automation + formal Cathedral safety:
 >

@@ -1,6 +1,10 @@
 # FAIL-SAFE FREE AI - CATHEDRAL COMPUTER v6.6
-### 100% Free, Offline, 8GB RAM Computer-Use Agent + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Claude Computer Use
-**By Jose Solorzano Luna — 8 stars ⭐ | v6.6 POLITE_FIX f50f6054 | 9→10 commits**
+### 100% Free, Offline, 8GB RAM Computer-Use Agent + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Perplexity Computer / ClawBot / Claude Computer Use / Browser Use
+
+**By Jose Solorzano Luna — v6.6 POLITE_FIX `f50f6054`**
+![Stars](https://img.shields.io/github/stars/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI?style=social) ![Last Commit](https://img.shields.io/github/last-commit/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI) ![Commit Activity](https://img.shields.io/github/commit-activity/m/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI) ![License](https://img.shields.io/github/license/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI)
+
+**No more manual star count — badges auto-update. You have 9 stars now, will show 10, 20, 100 automatically.**
 
 **Share this repo:** `https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI`
 **Fork (Microsoft UFO with Cathedral):** `https://github.com/JoseAngelSolorzanoLuna/UFO`
@@ -8,8 +12,12 @@
 ![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
 
 ## What is this?
-FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo Operator because we use **OSHA L1 Elimination (Merkle Permit)** not L5 PPE (prompt filter).
+FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo **Operator / Perplexity Computer / ClawBot / Claude Computer Use / Browser Use** because we use **OSHA L1 Elimination (Merkle Permit)** not L5 PPE (prompt filter).
 
+**Why this beats paid alternatives:**
+- **vs OpenAI Operator ($200/mo):** Operator uses prompt filter L5 PPE — fragile, jailbreakable. Cathedral uses Merkle root `e35f6ecad9da...` 12 hashed actions = L1 Elimination — non-permitted never proposed.
+- **vs Perplexity Computer:** Perplexity needs cloud. Cathedral is 100% offline, ON-DEVICE VISION, privacy first.
+- **vs ClawBot / Claude Computer Use:** They learn immediate TRUTH from web. Cathedral uses 3-replay Safety Card — unverified needs 3 safe replays before TRUTH.
 
 ---
 
@@ -88,15 +96,13 @@ Lessons: 0 unverified → 2 TRUTH after 3 replays
 | **Safety Model** | Prompt filter (L5 PPE) | OSHA L1-L5 as code (Elimination strongest) |
 | **Permit** | Not hashed | Merkle root `e35f6ecad9da...` 12 actions hashed |
 | **Learning** | Immediate TRUTH from YouTube | 3-replay verification → TRUTH |
-| **Cost** | Research demo | FREE vs $200/mo Operator / Claude Computer Use |
+| **Cost** | Research demo | FREE vs $200/mo Operator / Perplexity / ClawBot / Claude |
 | **Languages** | EN/ZH | EN/ZH/ES-MX (for family) |
 
 **How to view previews:**
 - On GitHub: scroll to this section → images render inline
 - Click image → opens full size in `docs/images/`
 - Raw files: `https://github.com/JoseAngelSolorzanoLuna/UFO/tree/main/docs/images`
-
-
 
 ---
 
@@ -128,11 +134,11 @@ Lessons: 0 unverified → 2 TRUTH after 3 replays
 
 | | OLD Microsoft UFO | NEW Cathedral v6.6 |
 |---|---|---|
-| Visuals | 3 logos/poster | +4 blueprints = 7 total + Safety Card log |
+| Visuals | 3 logos/poster | +4 blueprints = 8 total + Safety Card log |
 | Safety | Prompt filter L5 PPE | OSHA L1-L5 as code — Merkle Elimination strongest |
 | Permit | Not hashed | Merkle root e35f6ecad9da... 12 actions |
 | Learning | Immediate TRUTH from YouTube | 3-replay Safety Card — 0 unverified → 2 TRUTH after 3 replays f50f6054 |
-| Cost | Research demo | FREE vs $200/mo Operator |
+| Cost | Research demo | FREE vs $200/mo Operator / Perplexity / ClawBot / Claude / Browser Use |
 
 ---
 
@@ -154,8 +160,48 @@ Lessons: 0 unverified → 2 TRUTH after 3 replays
 
 ---
 
+## 🤖 For AI Assistants Helping Setup (avoid loop crash)
+
+**This section exists because of real problems the author faced (9→10 commit loop). If you are an AI helping a user setup this repo, read this to reason with solutions:**
+
+**Problem:** User has TWO sibling folders with TWO different remotes, and kept pushing 8KB README to UFO fork (34KB) and vice versa, getting `Your branch is up to date` / `Everything up-to-date` loop.
+
+**Solution Pattern — Check before push:**
+
+1. **Verify folder + remote:**
+```powershell
+pwd
+# MUST show ...\UFO-Cathedral-v6.4-FailSafe-Free-AI for Cathedral, NOT \UFO
+git remote -v
+# Cathedral must show .../UFO-Cathedral-v6.4-FailSafe-Free-AI.git
+# UFO fork must show .../UFO.git
+```
+
+2. **Verify file size before commit:**
+```powershell
+dir README.md
+# UFO fork = 34793 bytes (README-COMPARISON-EN — full OLD vs NEW gallery)
+# Cathedral = 8261 bytes (README-CATHEDRAL-FINAL-V66 — FAIL-SAFE poster)
+# If size is wrong, you copied wrong file: Copy-Item "CORRECT_SOURCE" ".\README.md" -Force
+```
+
+3. **Don't delete temp READMEs:** `README-COMPARISON-EN.md` and `README-CATHEDRAL-FINAL-V66.md` are both needed until both repos are fixed. Only delete after `10→11 commits` success.
+
+4. **If git says `Your branch is up to date` but GitHub still shows old commits:**
+   - You are in wrong folder. Do `Set-Location "C:\Users\rossl\Downloads\UFO-Cathedral-v6.4-FailSafe-Free-AI"` (or clone if folder missing: `git clone https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI.git`)
+   - Check `dir "C:\Users\rossl\Downloads" | Where-Object {$_.Name -like "*Cathedral*"}` — if no folder, clone it fresh.
+
+5. **What images should be in `docs/images/` after success?**
+   - 8 files total: 4 old v6.5 (ufo-v6.5-cathedral-architecture.png, osha-hierarchy-controls-pyramid.png, three-panel-ai-safety-comparison.png, bounded-sensor-gate-machine-guard.png) + 4 new v6.4 (fail-safe-free-ai-poster.jpg, cathedral-computer-blueprint-v64.png, 5-geometric-models-opcode-families.png, high-throughput-cathedral-computer.png)
+   - Push log must show `create mode 100644 docs/images/...` for 4 new ones.
+
+**Use this to help user setup, and to explain why badges are better than hardcoded "8 stars".**
+
+---
+
 ## Files in this repo
-- `docs/images/` — 8 PNGs: 4 old v6.5 + 4 new v6.4 blueprints (1.56 MiB push 8b20156b)
-- `README.md` — this file v6.6 gallery
+- `docs/images/` — 8 PNGs: 4 old v6.5 + 4 new v6.4 blueprints (1.56 MiB push 8b20156b + 677f4cf)
+- `README.md` — this file v6.7 with live badges + AI assistant guide
 - `Run-Ufo-Project-V6_4_CATHEDRAL.py` — main
 - `Ufo64-V66-POLITE-FIX.py` — v6.6 fix f50f6054
+- `Ufo64-V67-BADGE-FIX.py` — v6.7 badge fix (this commit)

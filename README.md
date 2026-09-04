@@ -1,8 +1,8 @@
-# FAIL-SAFE FREE AI - CATHEDRAL COMPUTER v6.6
-### 100% Free, Offline, 8GB RAM Computer-Use Agent + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Perplexity Computer / ClawBot / Claude Computer Use / Browser Use
+[![🌐 Live Slides Website — 20 Slides Dissected v7.0 FLAWLESS](https://img.shields.io/badge/Live%20Slides-20%20Dissected%20v7.0%20FLAWLESS-gold?style=for-the-badge)](https://joseangelsolorzanoLuna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/)
+### 100% Free, Offline, 8GB RAM Computer-Use Agent + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Perplexity Computer / ClawBot / Claude C[...]
 
 **By Jose Angel Solorzano Luna**
-![Stars](https://img.shields.io/github/stars/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI?style=social) ![Last Commit](https://img.shields.io/github/last-commit/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI) ![Commit Activity](https://img.shields.io/github/commit-activity/m/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI) ![License](https://img.shields.io/github/license/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI)
+![Stars](https://img.shields.io/github/stars/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI?style=social) ![Last Commit](https://img.shields.io/github/last-commit/JoseAngelSolorzanoLuna[...]
 
 **Repo:** `https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI`
 **Microsoft UFO Fork:** `https://github.com/JoseAngelSolorzanoLuna/UFO`
@@ -10,7 +10,7 @@
 ![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
 
 ## What is this?
-FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo **Operator / Perplexity Computer / ClawBot / Claude Computer Use / Browser Use** because we use **OSHA L1 Elimination (Merkle Permit)** not L5 PPE (prompt filter).
+FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo **Operator / Perplexity Computer / Cla[...]
 
 **Why this beats paid alternatives:**
 - **vs OpenAI Operator ($200/mo):** Operator uses prompt filter L5 PPE — fragile, jailbreakable. Cathedral uses Merkle root `e35f6ecad9da...` 12 hashed actions = L1 Elimination.

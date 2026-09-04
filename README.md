@@ -1,10 +1,8 @@
-[![🌐 Live Slides Website — 20 Slides Dissected v7.0 FLAWLESS](https://img.shields.io/badge/Live%20Slides-20%20Dissected%20v7.0%20FLAWLESS-gold?style=for-the-badge)](https://joseangelsolorzanoL[...]
-### 100% Free, Offline, 8GB RAM Computer-Use Agent + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Perplexity Computer / ClawBot / Claude C[...]
+[![🌐 Live Slides Website — 20 Slides Dissected v7.0 FLAWLESS](https://img.shields.io/badge/Live%20Slides-20%20Dissected%20v7.0%20FLAWLESS-gold?style=for-the-badge)](https://joseangelsolorzanoLuna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/)
 
-By Jose Angel Solorzano Luna Stars [Last Commit](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/commits/main)
+## 100% Free, Offline, 8GB RAM Computer-Artificial Intelligence + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Perplexity Computer / ClawBot / Claude Computer
 
-
-**Repo:** `https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI`
+By Jose Angel Solorzano Luna [![Stars](https://img.shields.io/github/stars/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI?style=social)](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI)](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/commits/main)**Repo:** `https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI`
 **Microsoft UFO Fork:** `https://github.com/JoseAngelSolorzanoLuna/UFO`
 
 ![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)

@@ -3,6 +3,12 @@
 [![🚀 AI4PC Free — Web Demo & Dashboard](https://img.shields.io/badge/AI4PC%20Free-Web%20Demo%20%26%20Dashboard-gold?style=for-the-badge)](https://ai4pcfree.netlify.app)
 
 
+## 100% Free, Offline, 8GB RAM Computer-Artificial Intelligence + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Perplexity Computer / ClawBot / Claude Computer
+
+By Jose Angel Solorzano Luna [![Stars](https://img.shields.io/github/stars/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI?style=social)](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI)](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/commits/main)
+
+**Repo:** `https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI`  
+**Microsoft UFO Fork:** `https://github.com/JoseAngelSolorzanoLuna/UFO`
 ![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
 
 ## Ai can see 👁️👅👁️ ( your computer screen ) + ( videos ) or Ai can click or type for you ( ask what you want ) 

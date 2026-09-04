@@ -7,8 +7,8 @@ By Jose Angel Solorzano Luna [![Stars](https://img.shields.io/github/stars/JoseA
 
 ![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
 
-## What is this?
-FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo **Operator / Perplexity Computer / Cla[...]
+## Ai can see 👁️👅👁️ ( your computer screen ) + ( videos ) or Ai can click or type for you ( ask what you want ) 
+FREE no wifi no internet offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo **Operator / Perplexity Computer / ClawBot
 
 **Why this beats paid alternatives:**
 - **vs OpenAI Operator ($200/mo):** Operator uses prompt filter L5 PPE — fragile, jailbreakable. Cathedral uses Merkle root `e35f6ecad9da...` 12 hashed actions = L1 Elimination.
@@ -32,7 +32,7 @@ FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = op
 | `assets/poster_with_play.png` — YouTube demo poster | ✅ Kept |
 | `assets/ufo_agent.png` — Agent diagram | ✅ Kept |
 
-#### NEW (Cathedral Edition v6.5 + v6.6) — Added by Jose Angel Solorzano Luna
+#### NEW (Cathedral Latest Updated Versions) — Added by Jose Angel Solorzano Luna
 
 | New Visual | What It Proves |
 |------------|----------------|
@@ -53,7 +53,7 @@ FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = op
 ##### 4. BoundedSensorGate — Machine Guard
 ![Gate](docs/images/bounded-sensor-gate-machine-guard.png)
 
-### 🆕 v6.6 Update — Safety Card Model
+### 🆕 New Update — Safety Card Model
 
 ```
 [UNVERIFIED] my_first_test:POLITE_LIE src=youtube → needs 3 consecutive safe replays
@@ -66,9 +66,9 @@ FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = op
 
 ---
 
-## 🔄 Old vs New Visual Comparison
+## Visual Comparison
 
-### NEW v6.4 — 4 Cathedral Blueprints
+### NEW Version Cathedral Blueprints
 
 #### 1. FAIL-SAFE FREE AI Poster
 ![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
@@ -82,7 +82,7 @@ FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = op
 #### 4. High-Throughput Pipeline
 ![Pipeline](docs/images/high-throughput-cathedral-computer.png)
 
-| | OLD Microsoft UFO | NEW Cathedral v6.6 |
+| | OLD Microsoft UFO | NEW Cathedral version |
 |---|---|---|
 | Visuals | 3 logos/poster | +4 blueprints = 8 total + Safety Card log |
 | Safety | Prompt filter L5 PPE | OSHA L1-L5 as code — Merkle Elimination strongest |
@@ -92,7 +92,7 @@ FREE offline computer-use agent that runs on 8GB RAM, no internet, 5 models = op
 
 ---
 
-## Quick Start v6.6
+## Quick Start
 
 ```powershell
 .\ufo_env310\Scripts\python.exe .\Ufo64-V66-POLITE-FIX.py

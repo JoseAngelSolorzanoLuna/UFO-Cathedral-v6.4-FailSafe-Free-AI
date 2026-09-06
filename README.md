@@ -7,7 +7,7 @@
 ![Ledger](https://img.shields.io/badge/ledger-cryptographically%20chained%20%2B%20saved%20state-lightgrey?style=for-the-badge)
 
 **Live Site:** [ai4pcfree.netlify.app](https://ai4pcfree.netlify.app) | 
-**Slides / Gallery:** [Netlify Live](https://ai4pcfree.netlify.app/slides/) | [GitHub Backup Live URL](https://JoseAngelSolorzanoLuna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/) |
+**Slides / Gallery:** [Netlify Live](https://ai4pcfree.netlify.app) | [GitHub Backup Live URL](https://JoseAngelSolorzanoLuna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/) |
 **Docs:** [docs/images folder](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/tree/main/docs/images)
 
 
@@ -72,7 +72,7 @@ All images use RAW URLs, not base64 embedded — fixes camo.githubusercontent.co
 - [Safety Comparison — Operator vs Cathedral vs Merkle](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/three-panel-ai-safety-comparison.png)
 - [Full End-to-End Cathedral v6.5](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/ufo-v6.5-cathedral-architecture.png)
 
-View full interactive gallery with SHARP/VIBRANT/FULL-RES: **[Live Slides](https://ai4pcfree.netlify.app/slides/)**
+View full interactive gallery with SHARP/VIBRANT/FULL-RES: **[Live Slides](https://ai4pcfree.netlify.app)**
 
 ### v6.6 Fixes
 

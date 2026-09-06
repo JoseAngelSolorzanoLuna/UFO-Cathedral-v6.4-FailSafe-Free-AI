@@ -10,6 +10,7 @@
 **Slides / Gallery:** [Netlify Live](https://ai4pcfree.netlify.app/slides/) | [GitHub Backup Live URL](https://JoseAngelSolorzanoLuna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/) |
 **Docs:** [docs/images folder](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/tree/main/docs/images)
 
+
 > Version: **v6.6 Pristine** (unified)
 
 ---

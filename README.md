@@ -1,134 +1,102 @@
-[![🌐 Live Slides Website — 20 Slides Dissected v7.0 FLAWLESS](https://img.shields.io/badge/Live%20Slides-20%20Dissected%20v7.0%20FLAWLESS-gold?style=for-the-badge)](https://joseangelsolorzanol[...]
+# UFO-Cathedral v6.6 Pristine — Fail-Safe Free AI
 
-[![🚀 AI4PC Free — Web Demo & Dashboard](https://img.shields.io/badge/AI4PC%20Free-Web%20Demo%20%26%20Dashboard-gold?style=for-the-badge)](https://ai4pcfree.netlify.app)
+**Version: v6.6 Pristine (unified — was v6.4 / v6.5 / v7.0 FLAWLESS mixed, now single badge: v6.6 Pristine — 8GB / iPhone 16 Pro Max Compatible)**
 
-
-## 100% Free, Offline, 8GB RAM Computer-Artificial Intelligence + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Perplexity Computer / ClawB[...]
-
-By Jose Angel Solorzano Luna [![Stars](https://img.shields.io/github/stars/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI?style=social)](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI)
-
-**Repo:** `https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI`  
-**Microsoft UFO Fork:** `https://github.com/JoseAngelSolorzanoLuna/UFO`
-![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
-
-## Ai can see 👁️👅👁️ ( your computer screen ) + ( videos ) or Ai can click or type for you ( ask what you want ) 
-FREE no wifi no internet offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo **Operator / Perpl[...]
-
-**Why this beats paid alternatives:**
-- **vs OpenAI Operator ($200/mo):** Operator uses prompt filter L5 PPE — fragile, jailbreakable. Cathedral uses Merkle root `e35f6ecad9da...` 12 hashed actions = L1 Elimination.
-- **vs Perplexity Computer:** Perplexity needs cloud. Cathedral is 100% offline, ON-DEVICE VISION, privacy first.
-- **vs ClawBot / Claude Computer Use:** They learn immediate TRUTH from web. Cathedral uses 3-replay Safety Card — unverified needs 3 safe replays before TRUTH.
+**Live Site:** https://ai4pcfree.netlify.app | **Slides:** https://ai4pcfree.netlify.app/slides/ | **Cost:** 100% Free Forever | **Offline:** Fully Functional | **Ledger:** Cryptographically Chained + Saved State
 
 ---
 
-## 🔄 What's Updated — Old vs New Visuals
+### Honest Story — How it was really built
 
-> Original Microsoft UFO had basic logos + YouTube poster. Cathedral Edition v6.5 adds 4 formal safety architecture diagrams + v6.6 adds Safety Card model.
+This was NOT done by downloading a single AI model that lacks reasoning.
 
-### 📸 Preview Gallery
+**Process:** First download Llama, then the bots from there on out, then all 5 together as opcode families for real reasoning.
 
-#### OLD (Microsoft Original)
+- **5 Geometric Models as Opcode Families:** Phi3 sphere, Llama pyramid, Llama graph, Qwen torus, Llava eye — distinct opcode spaces
+- **High-Throughput Cathedral Computer:** A-T-V-Q-P Pipeline + 5 Model Register File — throughput optimized for 8GB
+- **Shadow Mode:** 4 Brains + 1 Eyes + 5 Models → Coherence Evaluation → SAFE | HOLD | ESCALATE
+- **Bounded Sensor Gate:** Merkle Permit + Rate Limit + Click-Fence — prevents loops, malware downloads, crashes (fixes $200 loop bug)
+- **Ledger Hash:** `H(n)=SHA256(H(n-1)||state||action)` + replay bundle for audit
 
-| Old Visual | Status |
-|------------|--------|
-| `assets/logo3.png` — UFO³ logo | ✅ Kept |
-| `assets/ufo_blue.png` — UFO² logo | ✅ Kept |
-| `assets/poster_with_play.png` — YouTube demo poster | ✅ Kept |
-| `assets/ufo_agent.png` — Agent diagram | ✅ Kept |
+### Honest RAM Path (fixes old "five models + vision on iPhone" claim)
 
-#### NEW (Cathedral Latest Updated Versions) — Added by Jose Angel Solorzano Luna
+| Tier | Models | RAM | Reasoning | Where | Works |
+|------|--------|-----|-----------|-------|-------|
+| **Lite (<8GB phones)** | `phi3:mini Q4` | 1.8GB | Single reasoning — like basic Discord bot | COD HUD taps only | Low-end phones |
+| **Standard (iPhone 16 Pro Max 8GB — my device)** | `phi3:mini + llama3.2:3b` | 3.2GB | 2-model reasoning — learns sniper | Mobilerun red boxes + OBS Live | iPhone 16 Pro Max 8GB |
+| **Full Cathedral (PC 8GB only)** | All 5 opcode families | 5.8-6.2GB | 5-model reasoning — full Council + Ledger | PC 8GB only, NOT phone stable | PC 8GB+ |
 
-| New Visual | What It Proves |
-|------------|----------------|
-| **Cathedral Architecture**<br/>`ufo-v6.5-cathedral-architecture.png` | `User → BoundedSensorGate → Watcher-A/B → Council → Merkle Permit → Ledger → AEGIS` |
-| **OSHA Pyramid**<br/>`osha-hierarchy-controls-pyramid.png` | L1 Elimination (Merkle) > L2 Substitution (Gate) > L3 Engineering (Ledger) > L4 Admin (Council) > L5 PPE (AEGIS) |
-| **Three-Panel Comparison**<br/>`three-panel-ai-safety-comparison.png` | PPE only vs Gate vs Merkle Elimination (12 hashed actions) |
-| **BoundedSensorGate**<br/>`bounded-sensor-gate-machine-guard.png` | Machine guard stops stale screenshot BEFORE Watcher-A |
+**We do NOT claim five models + vision on iPhone.** START.md now says pull `phi3:mini` first as entry, then add Llama and bots to get all 5 together.
 
-##### 1. Full Cathedral Architecture
-![Cathedral Architecture](docs/images/ufo-v6.5-cathedral-architecture.png)
+### Quick Start — v6.6 Pristine
 
-##### 2. OSHA Hierarchy Pyramid
-![OSHA Pyramid](docs/images/osha-hierarchy-controls-pyramid.png)
+```bash
+# 1. Lite entry — honest first step (<8GB)
+ollama pull phi3:mini
 
-##### 3. Three-Panel Safety Comparison
-![Three Panel](docs/images/three-panel-ai-safety-comparison.png)
+# 2. Standard — iPhone 16 Pro Max 8GB test (your device)
+pip install droidrun
+brew install scrcpy
+python ufo64.py --mode phone --task "Tap sniper button only inside COD HUD"
 
-##### 4. BoundedSensorGate — Machine Guard
-![Gate](docs/images/bounded-sensor-gate-machine-guard.png)
+# 3. COD HUD Learn — giftable sniper for TikTok Live 1v1
+python ufo64.py --mode cod_hud
+# exports my_sniper_v1.jsonl + obs_cathedral_cod.json
 
-### 🆕 New Update — Safety Card Model
-
-```
-[UNVERIFIED] my_first_test:POLITE_LIE src=youtube → needs 3 consecutive safe replays
-[REPLAY 1] safe_streak=1/3
-[REPLAY 2] safe_streak=2/3
-[REPLAY 3] safe_streak=3/3 → [TRUTH] promoted
-
-[PROMOTION GATE] TAU_NEAR_FLOOR promoted UNVERIFIED -> TRUTH after 3 consecutive safe replays
+# 4. Full PC Cathedral — all 5 together for reasoning
+ollama pull llama3.2:3b
+ollama pull qwen2:1.5b
+ollama pull llava:phi3
+python ufo64.py --mode pc
+python verify_ledger.py
 ```
 
----
+### v6.6 Fixes — What Changed from v6.4 / v7.0
 
-## Visual Comparison
+1. **PC→Phone / COD HUD:** Was HTML demo only, `ufo64.py` shelled `python -m ufo` on Windows, did not drive phone. Now `ufo64.py --mode phone|pc|cod_hud` drives phone via Droidrun/Mobilerun + scrcpy fallback + pre-mapped red boxes + Bounded Sensor Gate (no Play Store zone).
+2. **Safety Card:** Was spec in README `UNVERIFIED → 3 replays → TRUTH`. Now saved state in `~/.ufo/ledger/safety_state.json` `{state,replays,threshold,next,version}` checked by `verify_ledger.py`.
+3. **Version badges:** Was mix v6.4 / v6.5 / v6.6 / v7.0 FLAWLESS (yellow badge `20 DISSECTED V7.0 FLAWLESS` caused camo.githubusercontent.com crash). Now unified `v6.6 Pristine — 8GB / iPhone 16 Pro Max Compatible` everywhere.
+4. **8GB claim:** Was "five models + vision on 8GB phone". Now honest: Full 5 models = PC only, Standard = 2 models on iPhone.
 
-### NEW Version Cathedral Blueprints
+### Mobile Driver + COD HUD (Now in Python too)
 
-#### 1. FAIL-SAFE FREE AI Poster
-![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
+- **Panic Stop:** ESC 3x or shake iPhone → instant HOLD, ledger saved
+- **Undo / Rollback:** `python rollback.py --last 1` + visual diff before/after red outline
+- **Health Dashboard:** RAM / Battery / Gate / Shadow gauges, auto-unloads if RAM>90% so 16 Pro Max never crashes
+- **OBS Preset:** `obs_cathedral_cod.json` one-click import scrcpy + agent view + ledger overlay for TikTok Live
 
-#### 2. Cathedral Computer Blueprint v6.4
-![Cathedral Computer](docs/images/cathedral-computer-blueprint-v64.png)
+### OmniGood Guardrails — Civilized + Safe
 
-#### 3. 5 Geometric Models as Opcode Families
-![5 Models](docs/images/5-geometric-models-opcode-families.png)
+- No spam/flooding — rate + embedding drift, only last 8 messages, no crash
+- No bashing/heated arguments — formal civilized, respectful back
+- No racism/degrading / excessive cursing — auto ask to stay respectful
+- +18 fictional storybook euphoric writing allowed, but NOT rape / non-consensual / wax without permission — therapist analogy: "communication is key, ask permission"
+- Dangerous Admin Step warning + alternative + obfuscated backup email to SolorzanoLunaJose@gmail.com (cipher 1↔9,2↔8,3↔7,4↔6,5↔5, e.g., 123456789→987654321, only robot can decode)
 
-#### 4. High-Throughput Pipeline
-![Pipeline](docs/images/high-throughput-cathedral-computer.png)
+### Verification
 
-| | OLD Microsoft UFO | NEW Cathedral version |
-|---|---|---|
-| Visuals | 3 logos/poster | +4 blueprints = 8 total + Safety Card log |
-| Safety | Prompt filter L5 PPE | OSHA L1-L5 as code — Merkle Elimination strongest |
-| Permit | Not hashed | Merkle root e35f6ecad9da... 12 actions |
-| Learning | Immediate TRUTH from YouTube | 3-replay Safety Card |
-| Cost | Research demo | FREE vs $200/mo Operator / Perplexity / ClawBot / Claude / Browser Use |
-
----
-
-## Quick Start
-
-See [START.md](START.md).
-
-```powershell
-.\ufo_env310\Scripts\python.exe .\ufo64.py
+```bash
+python verify_ledger.py
+# Checks: ledger hash chain + safety_state.json + honest RAM path + version unified
 ```
 
-**Original Microsoft:** https://github.com/microsoft/UFO
-**Fork with full docs:** https://github.com/JoseAngelSolorzanoLuna/UFO
+### Project Structure
+
+- `ufo64.py` — Unified runner pc|phone|cod_hud + safety state persistence + Bounded Sensor Gate
+- `START.md` — Honest entry path phi3:mini first
+- `verify_ledger.py` — Checks ledger + safety_state.json
+- `slides/index.html` — v6.6 Pristine gallery (RAW URLs, not base64 embedded — fixes camo crash)
+- `docs/images/` — 8 blueprints: 5 Geometric Models, Bounded Sensor Gate, Cathedral Blueprint v6.4, Fail-Safe Poster, A-T-V-Q-P Pipeline, OSHA Pyramid, Safety Comparison, Full End-to-End v6.5
+
+### Why Stick With This vs Operator / Astra / Basic Discord Bot?
+
+- 100% Free Offline — no $200 loop bug — Gate blocks runaway taps
+- Formal validation layering — OSHA 5 controls mapped to AI safety
+- Ledger Hash + Safety State saved — replay bundle + PDF audit + portable USB mode
+- Community Blueprint Hub — zip 8 images + hash proves prior art vs Z1T
+
+**Previous badges deleted:** `v7.0 FLAWLESS` removed until phone driver + safety state + 5-model proof passes on iPhone.
 
 ---
 
-## Setup Guide
-
-**Two repos, two sizes:**
-- `.../Downloads/UFO` -> `.../UFO.git` — 34KB README (full OLD vs NEW gallery)
-- `.../Downloads/UFO-Cathedral-v6.4-FailSafe-Free-AI` -> `.../UFO-Cathedral-v6.4-FailSafe-Free-AI.git` — ~12KB README
-
-**Verify before push:**
-```powershell
-pwd
-git remote -v
-dir README.md
-```
-
-**Required images in `docs/images/`:**
-8 files — 4 old v6.5 (cathedral-architecture, osha-pyramid, three-panel, bounded-gate) + 4 new v6.4 (fail-safe-poster, cathedral-blueprint, 5-models, high-throughput)
-
----
-
-## Files in this repo
-- `docs/images/` — 8 PNGs/JPGs
-- `README.md` — this file
-- `Run-Ufo-Project-V6_4_CATHEDRAL.py` — main
-- `START.md`
+© Jose Angel Solorzano Luna — Millville, NJ — Built on iPhone 16 Pro Max 8GB

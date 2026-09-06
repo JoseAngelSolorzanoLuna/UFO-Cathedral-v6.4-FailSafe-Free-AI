@@ -1,18 +1,18 @@
-[![🌐 Live Slides Website — 20 Slides Dissected v7.0 FLAWLESS](https://img.shields.io/badge/Live%20Slides-20%20Dissected%20v7.0%20FLAWLESS-gold?style=for-the-badge)](https://joseangelsolorzanoluna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides)
+[![🌐 Live Slides Website — 20 Slides Dissected v7.0 FLAWLESS](https://img.shields.io/badge/Live%20Slides-20%20Dissected%20v7.0%20FLAWLESS-gold?style=for-the-badge)](https://joseangelsolorzanol[...]
 
 [![🚀 AI4PC Free — Web Demo & Dashboard](https://img.shields.io/badge/AI4PC%20Free-Web%20Demo%20%26%20Dashboard-gold?style=for-the-badge)](https://ai4pcfree.netlify.app)
 
 
-## 100% Free, Offline, 8GB RAM Computer-Artificial Intelligence + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Perplexity Computer / ClawBot / Claude Computer
+## 100% Free, Offline, 8GB RAM Computer-Artificial Intelligence + Formal Safety (Gate + Ledger + Council + Shadow Mode) — Free alternative to $200/mo OpenAI Operator / Perplexity Computer / ClawB[...]
 
-By Jose Angel Solorzano Luna [![Stars](https://img.shields.io/github/stars/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI?style=social)](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI)](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/commits/main)
+By Jose Angel Solorzano Luna [![Stars](https://img.shields.io/github/stars/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI?style=social)](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI)
 
 **Repo:** `https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI`  
 **Microsoft UFO Fork:** `https://github.com/JoseAngelSolorzanoLuna/UFO`
 ![FAIL-SAFE FREE AI](docs/images/fail-safe-free-ai-poster.jpg)
 
 ## Ai can see 👁️👅👁️ ( your computer screen ) + ( videos ) or Ai can click or type for you ( ask what you want ) 
-FREE no wifi no internet offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo **Operator / Perplexity Computer / ClawBot
+FREE no wifi no internet offline computer-use agent that runs on 8GB RAM, no internet, 5 models = opcodes, ledger = immutable truth, 4 invariants = registers. Safer than $200/mo **Operator / Perpl[...]
 
 **Why this beats paid alternatives:**
 - **vs OpenAI Operator ($200/mo):** Operator uses prompt filter L5 PPE — fragile, jailbreakable. Cathedral uses Merkle root `e35f6ecad9da...` 12 hashed actions = L1 Elimination.
@@ -98,13 +98,10 @@ FREE no wifi no internet offline computer-use agent that runs on 8GB RAM, no int
 
 ## Quick Start
 
+See [START.md](START.md).
+
 ```powershell
-.\ufo_env310\Scripts\python.exe .\Ufo64-V66-POLITE-FIX.py
-> learn tutorial named my_first_test
-> status
-> replay
-> replay
-> replay
+.\ufo_env310\Scripts\python.exe .\ufo64.py
 ```
 
 **Original Microsoft:** https://github.com/microsoft/UFO
@@ -134,3 +131,4 @@ dir README.md
 - `docs/images/` — 8 PNGs/JPGs
 - `README.md` — this file
 - `Run-Ufo-Project-V6_4_CATHEDRAL.py` — main
+- `START.md`

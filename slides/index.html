@@ -1,11 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=slides.html">
-  <title>UFO Cathedral Slides</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UFO Cathedral v6.6 — Gallery & Blueprints</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0a1628 0%, #1a2d4d 100%);
+      color: #fff;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid #00d4ff;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #00d4ff, #0099ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .subtitle {
+      font-size: 1.1rem;
+      color: #b0c4de;
+      margin-bottom: 1rem;
+    }
+    
+    .badges {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    
+    .badge {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    
+    .badge-gold {
+      background-color: #d4af37;
+      color: #000;
+    }
+    
+    .badge-green {
+      background-color: #28a745;
+      color: #fff;
+    }
+    
+    .badge-blue {
+      background-color: #0066cc;
+      color: #fff;
+    }
+    
+    .badge-orange {
+      background-color: #ff8c00;
+      color: #fff;
+    }
+    
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    
+    .gallery-item {
+      background: rgba(20, 40, 80, 0.7);
+      border: 2px solid #00d4ff;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .gallery-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+      border-color: #00ff88;
+    }
+    
+    .gallery-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      background: #000;
+    }
+    
+    .gallery-info {
+      padding: 1.5rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .gallery-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #00d4ff;
+    }
+    
+    .gallery-description {
+      font-size: 0.95rem;
+      color: #b0c4de;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+    
+    .gallery-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: linear-gradient(135deg, #00d4ff, #0099ff);
+      color: #000;
+      text-decoration: none;
+      border-radius: 0.25rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+    
+    .gallery-link:hover {
+      background: linear-gradient(135deg, #00ff88, #00d4ff);
+      transform: scale(1.05);
+    }
+    
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .modal.active {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .modal-content {
+      position: relative;
+      max-width: 90vw;
+      max-height: 90vh;
+      background: #0a1628;
+      border: 2px solid #00d4ff;
+      border-radius: 0.5rem;
+    }
+    
+    .modal-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    
+    .modal-close {
+      position: absolute;
+      top: -40px;
+      right: 0;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #00d4ff;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+    
+    .modal-close:hover {
+      color: #00ff88;
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 2px solid #00d4ff;
+      color: #b0c4de;
+      font-size: 0.9rem;
+    }
+    
+    footer a {
+      color: #00d4ff;
+      text-decoration: none;
+    }
+    
+    footer a:hover {
+      color: #00ff88;
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+      
+      .badges {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <p><a href="slides.html">Open slides</a></p>
+  <div class="container">
+    <header>
+      <h1>🛸 UFO Cathedral v6.6 Pristine</h1>
+      <p class="subtitle">Free, Offline, 8GB RAM Computer-Artificial Intelligence with Formal Safety</p>
+      
+      <div class="badges">
+        <span class="badge badge-gold">v6.6 Pristine</span>
+        <span class="badge badge-green">100% Free</span>
+        <span class="badge badge-blue">Fully Offline</span>
+        <span class="badge badge-orange">8GB RAM</span>
+      </div>
+    </header>
+    
+    <main>
+      <div class="gallery" id="gallery"></div>
+    </main>
+    
+    <footer>
+      <p>© Jose Angel Solorzano Luna — <a href="https://www.tiktok.com/@chavojose2002" target="_blank">TikTok @ChavoJose2002</a></p>
+      <p style="margin-top: 1rem;">
+        <a href="https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI" target="_blank">View on GitHub</a> | 
+        <a href="https://ai4pcfree.netlify.app" target="_blank">Live Demo</a>
+      </p>
+    </footer>
+  </div>
+  
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <img id="modalImage" class="modal-image" src="" alt="">
+    </div>
+  </div>
+  
+  <script>
+    const galleryItems = [
+      {
+        title: "5 Geometric Models — Opcode Families",
+        description: "Phi3 sphere, Llama pyramid, Llama graph, Qwen torus, Llava eye — distinct opcode spaces",
+        url: "https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/5-geometric-models-opcode-families.png"
+      },
+      {
+        title: "Cathedral Computer Blueprint v6.4",
+        description: "A-T-V-Q-P Pipeline + 5 Model Register File — throughput optimized for 8GB",
+        url: "https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/cathedral-computer-blueprint-v64.png"
+      },
+      {
+        title: "High-Throughput Cathedral Computer",
+        description: "Advanced pipeline architecture for optimal reasoning across all models",
+        url: "https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/high-throughput-cathedral-computer.png"
+      },
+      {
+        title: "Bounded Sensor Gate — Machine Guard",
+        description: "Merkle Permit + Rate Limit + Click-Fence — prevents loops, malware, crashes",
+        url: "https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/bounded-sensor-gate-machine-guard.png"
+      },
+      {
+        title: "OSHA Hierarchy Controls Pyramid",
+        description: "Safety hierarchy from administrative to personal protective equipment (PPE)",
+        url: "https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/osha-hierarchy-controls-pyramid.png"
+      },
+      {
+        title: "Fail-Safe Free AI Poster",
+        description: "Complete visual overview of the UFO Cathedral architecture and safety features",
+        url: "https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/fail-safe-free-ai-poster.jpg"
+      },
+      {
+        title: "Safety Comparison — Operator vs Cathedral vs Merkle",
+        description: "Comparative analysis of safety approaches in AI systems",
+        url: "https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/three-panel-ai-safety-comparison.png"
+      },
+      {
+        title: "Full End-to-End Cathedral v6.5",
+        description: "Complete architecture and data flow from input to output with safety gates",
+        url: "https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/ufo-v6.5-cathedral-architecture.png"
+      }
+    ];
+    
+    function renderGallery() {
+      const gallery = document.getElementById('gallery');
+      galleryItems.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'gallery-item';
+        div.innerHTML = `
+          <img class="gallery-image" src="${item.url}" alt="${item.title}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22200%22%3E%3Crect fill=%22%23333%22 width=%22300%22 height=%22200%22/%3E%3Ctext fill=%22%23999%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EImage Loading...%3C/text%3E%3C/svg%3E'">
+          <div class="gallery-info">
+            <h3 class="gallery-title">${item.title}</h3>
+            <p class="gallery-description">${item.description}</p>
+            <a href="javascript:openModal('${item.url}')" class="gallery-link">View Full Size</a>
+          </div>
+        `;
+        gallery.appendChild(div);
+      });
+    }
+    
+    function openModal(url) {
+      const modal = document.getElementById('modal');
+      const modalImage = document.getElementById('modalImage');
+      modalImage.src = url;
+      modal.classList.add('active');
+    }
+    
+    function closeModal() {
+      const modal = document.getElementById('modal');
+      modal.classList.remove('active');
+    }
+    
+    // Close modal when clicking outside the image
+    document.getElementById('modal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeModal();
+      }
+    });
+    
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeModal();
+      }
+    });
+    
+    // Render gallery on load
+    renderGallery();
+  </script>
 </body>
 </html>

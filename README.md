@@ -7,7 +7,7 @@
 ![Ledger](https://img.shields.io/badge/ledger-cryptographically%20chained%20%2B%20saved%20state-lightgrey?style=for-the-badge)
 
 **Live Site:** [ai4pcfree.netlify.app](https://ai4pcfree.netlify.app) | 
-**Slides / Gallery:** [Netlify Live](https://ai4pcfree.netlify.app) | [GitHub Backup Live URL](https://JoseAngelSolorzanoLuna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/) |
+**Slides / Gallery:** [🖼️ Open Gallery](https://JoseAngelSolorzanoLuna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/) | [Netlify Live](https://ai4pcfree.netlify.app) |
 **Docs:** [docs/images folder](https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/tree/main/docs/images)
 
 
@@ -72,7 +72,7 @@ All images use RAW URLs, not base64 embedded — fixes camo.githubusercontent.co
 - [Safety Comparison — Operator vs Cathedral vs Merkle](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/three-panel-ai-safety-comparison.png)
 - [Full End-to-End Cathedral v6.5](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/ufo-v6.5-cathedral-architecture.png)
 
-View full interactive gallery with SHARP/VIBRANT/FULL-RES: **[Live Slides](https://ai4pcfree.netlify.app)**
+View full interactive gallery with SHARP/VIBRANT/FULL-RES: **[🖼️ Live Slides Gallery](https://JoseAngelSolorzanoLuna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/)**
 
 ### v6.6 Fixes
 
@@ -93,7 +93,7 @@ python verify_ledger.py
 - `ufo64.py` — Unified runner pc|phone|cod_hud + safety state persistence + Bounded Sensor Gate
 - `START.md` — Honest entry phi3:mini first
 - `verify_ledger.py` — Checks ledger + safety_state.json
-- `slides/index.html` — v6.6 Pristine gallery (RAW URLs — fixes crash)
+- `slides/index.html` — v6.6 Pristine interactive gallery
 - `docs/images/` — 8 blueprints
 
 © Jose Angel Solorzano Luna — TikTok @ChavoJose2002 https://www.tiktok.com/@chavojose2002?_r=1&_t=ZT-99WB8bQvnVF

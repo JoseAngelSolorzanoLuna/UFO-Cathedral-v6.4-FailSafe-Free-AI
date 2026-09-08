@@ -22,7 +22,7 @@ Process was: first download Llama, then the bots from there on out, then all 5 t
 **Honest RAM Path (fixes 8GB five models + vision claim):**
 - **Lite (<8GB phones):** `ollama pull phi3:mini` — 1.8GB Q4 — COD HUD taps only — no Council, single reasoning (like basic Discord bot)
 - **Standard (iPhone 16 Pro Max 8GB — your device):** `phi3:mini` + `llama3.2:3b` — 3.2GB total — learns sniper, Mobilerun red boxes, OBS live — 2-model reasoning
-- **Full Cathedral (PC 8GB only):** All 5 opcode families together — Phi3 + Llama pyramid + Llama graph + Qwen + Llava — 5.8-6.2GB — full Council + Ledger Hash `H(n)=SHA256(H(n-1)||state||action)` + replay bundle — requires PC, NOT phone stable
+- **Full Cathedral (PC 8GB only):** All 5 opcode families together — Phi3 + Llama pyramid + Llama graph + Qwen + Llava — 5.8-6.2GB — full Council + Ledger Hash `H(n)=SHA256(H(n-1)||state||ac[...]
 
 We do NOT claim five models + vision on iPhone. START.md now says pull phi3:mini first as entry, then add Llama and rest to get full reasoning.
 

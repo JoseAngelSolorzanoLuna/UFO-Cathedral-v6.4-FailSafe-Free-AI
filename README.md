@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/version-v6.7%20Pristine-gold) ![Free](https://img.shields.io/badge/free-100%25-green) ![Offline](https://img.shields.io/badge/offline-yes-blue) ![RAM](https://img.shields.io/badge/RAM-8GB-orange) ![Ledger](https://img.shields.io/badge/ledger-verified-lightgrey)
 
 **Live WebSite:** https://ai4pcfree.netlify.app | **Live Grok WebSite :** [https://ai4pcfree.grok.me] | 
-| **X Article :** [https://x.com/sxlxrzano/status/2097351730572754951?s=20] |**Old Website:Slides / Gallery :** https://joseangelsolorzanoluna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/ | **Old Website:** docs/images folder | **Builder Tree:** https://joseangelsolorzanolunaofficial.netlify.app
+| **X Article :** [https://x.com/sxlxrzano/status/2097351730572754951?s=20] |**Old Website: Slides / Gallery :** https://joseangelsolorzanoluna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/ | **Old Website:** docs/images folder | **Builder Tree:** https://joseangelsolorzanolunaofficial.netlify.app
 
 > Version: **v6.7 Pristine** (was v6.6 Pristine, now adds 5 comms formats)
 

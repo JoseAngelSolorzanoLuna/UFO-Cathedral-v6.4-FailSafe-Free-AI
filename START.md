@@ -1,3 +1,13 @@
+# UFO Cathedral v6.7 — start here
+
+Live pack: https://ai4pcfree.netlify.app
+Builder: José Angel Solorzano Luna
+
+v6.7 companion is software-first on the same Gate + Ledger.
+Body kits and neuro-chip are not software-ready.
+
+---
+
 # UFO-Cathedral v6.6 Pristine — Fail-Safe Free AI
 **Version: v6.6 Pristine (unified — was v6.4/v6.5/v7.0 FLAWLESS mixed, now single badge)**
 

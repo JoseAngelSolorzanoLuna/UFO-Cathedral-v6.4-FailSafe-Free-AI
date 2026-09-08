@@ -1,34 +1,16 @@
 # UFO Cathedral v6.7 — Fail-Safe Free AI
 
-100% free, offline, ~8GB RAM computer-use AI. Vision + click + type. No cloud required.
+![Version](https://img.shields.io/badge/version-v6.7-gold?style=for-the-badge)
+![Free](https://img.shields.io/badge/cost-100%25%20Free%20Forever-brightgreen?style=for-the-badge)
+![Offline](https://img.shields.io/badge/offline-fully%20functional-blue?style=for-the-badge)
+![RAM](https://img.shields.io/badge/8GB-honest%20path-orange?style=for-the-badge)
+![Ledger](https://img.shields.io/badge/ledger-chained%20%2B%20Safety%20Card-lightgrey?style=for-the-badge)
 
 **Builder:** José Angel Solorzano Luna  
-**Live pack:** https://ai4pcfree.netlify.app  
-**Builder tree:** https://joseangelsolorzanolunaofficial.netlify.app  
-**Repo:** https://github.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI
+**Live pack:** [ai4pcfree.netlify.app](https://ai4pcfree.netlify.app)  
+**Builder tree:** [joseangelsolorzanolunaofficial.netlify.app](https://joseangelsolorzanolunaofficial.netlify.app)  
+**Slides backup:** [GitHub Pages](https://joseangelsolorzanoluna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/)
 
-## What this is
+100% free. Offline. ~8GB. Vision + click + type. No cloud required.
 
-User → BoundedSensorGate → Watcher-A/B → Council → Merkle Permit → Ledger → AEGIS
-
-Safety Card: an unverified action needs **3 consecutive safe replays** before TRUTH.
-
-v6.7 adds a **local companion / humanoid path** on the same permit. Software first. Body after TRUTH.
-
-## Honest RAM path
-
-| Path | Hardware | Model | Notes |
-| --- | --- | --- | --- |
-| Lite | <8GB / phone | `phi3:mini` 1.8GB | Calm companion. No Council. |
-| Standard | 8GB | phi3:mini + llama3.2:3b | Warm reflective. 2-model. |
-| Full | PC 8GB+ | 5 opcode families | Council + Watchers. Not phone-stable. |
-
-We do **not** claim five models + vision on iPhone.
-
-## Quick start
-
-```bash
-ollama pull phi3:mini
-python ufo64.py --mode pc
-python verify_ledger.py
-```
+v6.6 Pristine is the spine. v6.7 does not replace it.

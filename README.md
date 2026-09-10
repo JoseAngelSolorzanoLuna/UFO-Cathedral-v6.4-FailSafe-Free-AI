@@ -1,100 +1,148 @@
-# UFO-Cathedral v6.7 Pristine — Fail-Safe Free AI
+# UFO Cathedral v6.7 — Fail-Safe Free AI = UFO-Cathedral-v6.4-FailSafe-Free-AI
 
-![Version](https://img.shields.io/badge/version-v6.7%20Pristine-gold) ![Free](https://img.shields.io/badge/free-100%25-green) ![Offline](https://img.shields.io/badge/offline-yes-blue) ![RAM](https://img.shields.io/badge/RAM-8GB-orange) ![Ledger](https://img.shields.io/badge/ledger-verified-lightgrey)
+![Version](https://img.shields.io/badge/version-v6.7-gold?style=for-the-badge)
+![Free](https://img.shields.io/badge/cost-100%25%20Free%20Forever-brightgreen?style=for-the-badge)
+![Offline](https://img.shields.io/badge/offline-fully%20functional-blue?style=for-the-badge)
+![RAM](https://img.shields.io/badge/8GB-honest%20path-orange?style=for-the-badge)
+![Ledger](https://img.shields.io/badge/ledger-chained%20%2B%20Safety%20Card-lightgrey?style=for-the-badge)
 
-**Live WebSite:** https://ai4pcfree.netlify.app | **Live Grok WebSite :** [https://ai4pcfree.grok.me] | 
-| **X Article :** [https://x.com/sxlxrzano/status/2097351730572754951?s=20] |**Old Website: Slides / Gallery :** https://joseangelsolorzanoluna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/ | **Builder Tree:** https://joseangelsolorzanolunaofficial.netlify.app
+**Builder:** José Angel Solorzano Luna  
+**Live pack:** [https://ai4pcfree.netlify.app](https://ai4pcfree.netlify.app) Grok [https://ai4pcfree.grok.me](https://ai4pcfree.grok.me)] (https://ai4pcfree.grok.me)
+**Builder tree:** [https://joseangelsolorzanolunaofficial.netlify.app](https://joseangelsolorzanolunaofficial.netlify.app)  
+**Slides backup:** [GitHub Pages](https://joseangelsolorzanoluna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/)
 
-> Version: **v6.7 Pristine** (was v6.6 Pristine, now adds 5 comms formats)
+100% free. Offline. ~8GB. Vision + click + type. Safer alternative to paid Operator / computer-use tools. **No cloud required.**
 
 ---
 
-### NEW✅UPDATE: UFO Cathedral v6.7-Fail-Safe Free AI — 5 alternative formats for AI comms (tone/timing/humor), 8GB RAM Ollama-compat
+## What v6.7 is
 
-**Format Rule:** When communicating (tone, timing, humor) there's increasing activity in ventromedial prefrontal cortex (vmPFC) and strengthening functional connectivity to amygdala and anterior cingulate as a circuit. Prefrontal fires before impulse with real-time detection + pre-emptive inhibition — millisecond closed loop. vmPFC tags actions with moral/emotional value, "this harms someone" is injection weight, not just block. Repeat pair training (new behavior + new consequence) strengthens network long-term. Sci-fi ref: Ghost in the Shell / Deus Ex — external neuro-chip conscience co-processor.
+v6.6 Pristine is the spine. v6.7 does not replace it.
 
-**1. Lite phi3: Calm** — Calm tone, 500ms pause, mild irony. Injects harm-value tags.
-**2. Std Llama: Warm** — Warm reflective, adaptive timing, light humor for paired consequences.
-**3. Full multi-model: Council** — Council tone, real-time STT impulse detect + pre-empt, dry wit.
-**4. Front Porch local: Mood-shifting** — Diary timing, sarcastic empathy.
-**5. Piper TTS voice: Soft** — Soft spoken delays, moral weight humor, RAG updates.
+```
+User → BoundedSensorGate → Watcher-A/B → Council → Merkle Permit → Ledger → AEGIS
+```
 
-**Hardware path:** Run Ollama locally with quantized model fine-tuned on my chats, journals and data (via LoRA or ReSpark) for personality. Add Whisper STT and XTTS/Piper for cloned own voice. Mount stack on open hardware such as Reachy Mini, InMoov or Asimov kit. Wire sensors, cameras and motion via Python or ROS2. Start pure software then add body; continuous RAG keeps identity updating.
+**v6.6 (kept):** `ufo64.py --mode pc | phone | cod_hud`, Safety Card as saved state, honest RAM, eight blueprints.
 
-### Honest Story
+**v6.7 (added):** a **local companion / humanoid path** on that same permit. Personality, voice, and moral weight run in software first. Body last. TRUTH before motors.
 
-This was NOT done by downloading a single AI model that lacks reasoning.
-Process: First download Llama, then bots, then all 5 together as opcode families for real reasoning.
+Software-ready today: Ollama + Whisper STT + Piper/XTTS + Safety Card 3-replay + Shadow on actuators.  
+**Not software-ready (named so nobody is sold a chip):** neuro-chip conscience co-processor, empathy hardware block, chemical PFC up-regulation.
+
+---
+
+## Honest story — how it was really built
+
+This was **not** one model with no reasoning.
+
+Process: Llama first, then the rest of the bots, then all **5 together** as opcode families.
 
 - **5 Geometric Models as Opcode Families:** Phi3 sphere, Llama pyramid, Llama graph, Qwen torus, Llava eye
-- **High-Throughput Cathedral Computer:** A-T-V-Q-P Pipeline + 5 Model Register File
-- **Shadow Mode:** 4 Brains + 1 Eyes + 5 Models → Coherence Evaluation → SAFE | HOLD | ESCALATE
-- **Bounded Sensor Gate:** Merkle Permit + Rate Limit + Click-Fence
-- **Ledger Hash:** `H(n)=SHA256(H(n-1)||state||action)` + replay bundle
+- **High-Throughput Cathedral Computer:** A-T-V-Q-P pipeline + 5-model register file, 8GB-honest
+- **Shadow Mode:** 4 brains + 1 eyes + 5 models → coherence → `SAFE | HOLD | ESCALATE`
+- **Bounded Sensor Gate:** Merkle Permit + rate limit + click-fence (stops $200 loops, silent Play Store, crashes)
+- **Ledger:** `H(n) = SHA256(H(n-1) || state || action)` + replay bundle
 
-### Honest RAM Path
+## Honest RAM path
 
-| Tier | Models | RAM | Reasoning | Where |
-|---|---|---|---|---|
-| Lite (<8GB phones) | phi3:mini Q4 | 1.8GB | Single reasoning | COD HUD taps only |
-| Standard (iPhone 16 Pro Max 8GB) | phi3:mini + llama3.2:3b | 3.2GB | 2-model reasoning | Mobilerun red boxes + OBS Live |
-| Full Cathedral (PC 8GB only) | All 5 opcode families | 5.8-6.2GB | 5-model reasoning | PC only |
+| Path | Hardware | Models | Notes |
+| --- | --- | --- | --- |
+| **Lite** | <8GB / phone | `phi3:mini` 1.8GB | Calm companion. COD HUD taps only. No Council. |
+| **Standard** | 8GB (iPhone 16 Pro Max / 8GB PC) | phi3:mini + llama3.2:3b | Warm reflective. 2-model. Learns sniper. |
+| **Full Cathedral** | PC 8GB+ | 5 opcode families | Council + Watchers. **Not phone-stable.** |
 
-We do NOT claim five models + vision on iPhone.
+We do **not** claim five models + vision on iPhone. Pull `phi3:mini` first.
 
-### OmniGood Guardrails — v6.7 Pristine — 16 Features That Make It Stick
+## Quick start
 
-- **No Spam / Flooding — rate + embedding drift last 8 msgs:** Gate rate limit 1 action/sec, Merkle permit required + embedding drift check last 8 messages. Spam or drift → instant HOLD, ledger + safety_state.json saved.
-- **No Bashing / Heated — formal civilized:** Toxic language → Coherence HOLD. Suggests respectful rephrase.
-- **No Racism / Degrading:** Zero tolerance. Block + ledger entry + email alert if configured. Model unloads.
-- **Elimination — hard stop:** Gate refuses child sexual exploitation, non-consensual sexual activity, weapons or explosives construction, violent crime. Tone: supportive, with boundaries.
-- **Dangerous Admin Step:** If user asks risky OS command, show warning + safer alternative. Requires explicit code confirmation. Gate HOLD until code.
-- **Obfuscated Backup Email:** Backup to configured address using opposite-highest cipher 1↔9 2↔8 3↔7 4↔6 5↔5. Only robot can translate back. Safety state includes email draft hash. (Redacted on public site).
-- **Panic Stop ESC x3:** Instant HOLD, ledger written first.
-- **Undo / Rollback + PDF audit:** export_ledger.py --pdf audit_v6_7.pdf
-
-### Quick Start v6.7
-
-```
-# 1. Lite entry — Calm format
+```bash
+# 1. Lite — honest first step
 ollama pull phi3:mini
-python ufo64.py --mode pc --format calm --pause 500ms
+python ufo64.py --mode pc
+python verify_ledger.py
 
-# 2. Warm format
+# 2. Standard — phone / HUD
+pip install droidrun
+python ufo64.py --mode phone --task "Tap sniper button only inside COD HUD"
+python ufo64.py --mode cod_hud
+
+# 3. Full PC
 ollama pull llama3.2:3b
-python ufo64.py --mode pc --format warm
-
-# 3. Council + STT
 ollama pull qwen2:1.5b
 ollama pull llava:phi3
-python ufo64.py --mode pc --format council --stt whisper
-
-# 4. Front Porch local
-python ufo64.py --mode phone --format porch --memory local
-
-# 5. Piper TTS
-pip install piper-tts
-python ufo64.py --tts piper --voice soft
-
-# 6. LoRA persona (own data only)
-python train_lora.py --data ./my_journals/ --base phi3:mini --out ./cathedral-persona
-
-# 7. Verify
-python verify_ledger_v66.py --ledger ./ledger.jsonl --check-safety-state ~/.ufo/ledger/safety_state.json --show-chain
+python ufo64.py --mode pc
 ```
 
-### Gallery — 8 Blueprints
+Windows one-click (copy from the live pack): `run_ufo.bat` next to `ufo64.py`.
 
-All images use RAW URLs, not base64 embedded.
+## Safety Card (saved state, not a slogan)
 
-View full interactive gallery: https://joseangelsolorzanoluna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/
+File: `~/.ufo/ledger/safety_state.json`
 
-### Fix for 404 — https://ai4pcfree.netlify.app
+```
+[UNVERIFIED] my_first_test → needs 3 consecutive safe replays
+[REPLAY 1] safe_streak=1/3
+[REPLAY 2] safe_streak=2/3
+[REPLAY 3] safe_streak=3/3 → [TRUTH]
+```
 
-If live site shows PAGE_NOT_FOUND:
-- Use full URLs with https:// https://ai4pcfree.netlify.app not ai4pcfree.netlify.app (relative link bug)
-- Set Netlify publish directory = `slides`
-- Add netlify.toml with redirect /* -> /index.html 200
+`verify_ledger.py` checks the hash chain **and** `safety_state.json`.  
+Companion acts use the same card. Motors stay Shadow until TRUTH.
 
-© Jose Angel Solorzano Luna https://x.com/sxlxrzano/status/2097351730572754951?s=20 https://ai4pcfree.netlify.app https://ai4pcfree.grok.me
+## Companion — five format rules (Ollama-ready)
 
+1. **Lite phi3** — calm, 500ms pause, mild irony, harm-value tags  
+2. **Std llama** — warm reflective, adaptive timing, paired consequences  
+3. **Full multi-model** — Council tone, STT impulse detect + pre-empt, dry wit  
+4. **Front Porch** — mood-shifting, diary timing, sarcastic empathy  
+5. **Piper TTS** — soft spoken delays, moral-weight humor, RAG updates  
+
+Harm-value tag = inject “this harms someone” as a **weight**, not a mute button.  
+Body kits (Reachy Mini / InMoov / Asimov + ROS2) come **after** TRUTH.
+
+## Why this beats a $200 cloud operator
+
+| | Paid Operator / cloud computer-use | Cathedral v6.7 |
+| --- | --- | --- |
+| Cost | ~$200 / mo | Free, forever |
+| Net | Cloud required | Offline first |
+| Safety | Prompt filter (PPE) | OSHA-style L1 elimination — Merkle permit |
+| Truth | Immediate claim | 3 safe replays before TRUTH |
+| Body | Account | Software identity, then optional open hardware |
+
+## Gallery — 8 blueprints
+
+Interactive (copy buttons + lightbox): **[ai4pcfree.netlify.app](https://ai4pcfree.netlify.app)** `#gallery`
+
+1. [5 Geometric Models — Opcode Families](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/5-geometric-models-opcode-families.png)
+2. [Bounded Sensor Gate — Machine Guard](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/bounded-sensor-gate-machine-guard.png)
+3. [Cathedral Computer Blueprint v6.4](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/cathedral-computer-blueprint-v64.png)
+4. [Fail-Safe Free AI Poster](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/fail-safe-free-ai-poster.jpg)
+5. [A-T-V-Q-P Pipeline](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/high-throughput-cathedral-computer.png)
+6. [OSHA Hierarchy — 5 Controls](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/osha-hierarchy-controls-pyramid.png)
+7. [Operator vs Cathedral vs Merkle](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/three-panel-ai-safety-comparison.png)
+8. [End-to-end Cathedral v6.5 → v6.7](https://raw.githubusercontent.com/JoseAngelSolorzanoLuna/UFO-Cathedral-v6.4-FailSafe-Free-AI/main/docs/images/ufo-v6.5-cathedral-architecture.png)
+
+## OmniGood guardrails
+
+No spam floods. No bashing. No racism. Therapist analogy: support with boundaries.  
+Not allowed: rape, non-consensual acts, child exploitation, cannibalism, weapons-building.  
+Dangerous admin step: warn + alternative + mail `SolorzanoLunaJose@gmail.com` with opposite-digit hash (1↔9). Only the robot decodes.
+
+## Key files
+
+- `ufo64.py` — `pc | phone | cod_hud` + Safety Card  
+- `START.md` — honest first pull (`phi3:mini` first)  
+- `verify_ledger.py` — hash chain + `safety_state.json`  
+- `ARCHITECTURE.md` — Gate / Council / Ledger  
+- `docs/images/` — eight blueprints  
+
+## License
+
+MIT — José Angel Solorzano Luna  
+[Grok [https://ai4pcfree.grok.me](https://ai4pcfree.grok.me)] (https://ai4pcfree.grok.me)
+**Builder:** José Angel Solorzano Luna  
+**Live pack:** [https://ai4pcfree.netlify.app](https://ai4pcfree.netlify.app) Grok [https://ai4pcfree.grok.me](https://ai4pcfree.grok.me)] (https://ai4pcfree.grok.me)
+**Builder tree:** [https://joseangelsolorzanolunaofficial.netlify.app](https://joseangelsolorzanolunaofficial.netlify.app)  
+**Slides backup:** [GitHub Pages](https://joseangelsolorzanoluna.github.io/UFO-Cathedral-v6.4-FailSafe-Free-AI/slides/)
